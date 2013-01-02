@@ -22,7 +22,7 @@ Usage
 
 Compile the C source code into a profiled MPI binary:
 
-  ``$ ispcc -o profiled.binary ./source.c ``
+  ``$ ispcc -o profiled.binary ./source.c``
 
 Run verification tool on profiled binary in 4 processes
 and store results in output log file:
