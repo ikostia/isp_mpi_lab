@@ -1,0 +1,355 @@
+4
+1 0 0 1 2 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 1 0 File: 5 bad.c 25
+1 0 1 11 4 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 1 1 File: 5 bad.c 25
+1 0 2 12 6 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 2 0 File: 5 bad.c 25
+1 0 3 13 -1 Recv 1 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+1 1 0 2 1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+1 1 1 5 3 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 1 File: 5 bad.c 40
+1 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+1 2 0 3 5 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 5 bad.c 39
+1 2 1 6 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+1 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+1 3 0 4 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+1 3 1 7 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+1 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+1 DEADLOCK
+2 0 0 1 8 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 1 0 File: 5 bad.c 25
+2 0 1 11 10 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 1 1 File: 5 bad.c 25
+2 0 2 12 12 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 3 0 File: 5 bad.c 25
+2 0 3 26 -1 Recv 1 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+2 1 0 2 7 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+2 1 1 5 9 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 1 File: 5 bad.c 40
+2 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+2 2 0 3 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+2 2 1 6 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+2 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+2 3 0 4 11 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 5 bad.c 39
+2 3 1 7 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+2 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+2 DEADLOCK
+3 0 0 1 14 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 1 0 File: 5 bad.c 25
+3 0 1 11 16 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 2 0 File: 5 bad.c 25
+3 0 2 38 18 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 1 1 File: 5 bad.c 25
+3 0 3 39 -1 Recv 1 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+3 1 0 2 13 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+3 1 1 5 17 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 2 File: 5 bad.c 40
+3 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+3 2 0 3 15 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+3 2 1 6 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+3 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+3 3 0 4 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+3 3 1 7 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+3 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+3 DEADLOCK
+4 0 0 1 20 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 1 0 File: 5 bad.c 25
+4 0 1 11 22 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 2 0 File: 5 bad.c 25
+4 0 2 38 24 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 2 1 File: 5 bad.c 25
+4 0 3 52 26 Recv 1 0 0_0:1:2:3: { 4 } { } Match: 1 1 File: 5 bad.c 29
+4 0 4 53 -1 Recv 2 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+4 1 0 2 19 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+4 1 1 5 25 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 3 File: 5 bad.c 40
+4 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+4 2 0 3 21 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+4 2 1 6 23 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 2 File: 5 bad.c 40
+4 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+4 3 0 4 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+4 3 1 7 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+4 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+4 DEADLOCK
+5 0 0 1 28 Recv -1 0 0_0:1:2:3: { 1 } { [ 1 0 ] } Match: 1 0 File: 5 bad.c 25
+5 0 1 11 30 Recv -1 0 0_0:1:2:3: { 2 } { [ 2 0 ] } Match: 2 0 File: 5 bad.c 25
+5 0 2 38 32 Recv -1 0 0_0:1:2:3: { 3 } { [ 3 0 ] } Match: 3 0 File: 5 bad.c 25
+5 0 3 66 34 Recv 1 0 0_0:1:2:3: { 4 } { [ 1 1 ] } Match: 1 1 File: 5 bad.c 29
+5 0 4 67 36 Recv 2 0 0_0:1:2:3: { 5 } { [ 2 1 ] } Match: 2 1 File: 5 bad.c 29
+5 0 5 68 38 Recv 3 0 0_0:1:2:3: { 6 } { [ 3 1 ] } Match: 3 1 File: 5 bad.c 29
+5 0 6 69 39 Finalize { } { [ 1 2 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+5 1 0 2 27 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+5 1 1 5 33 Send 0 0 0_0:1:2:3: { 2 } { [ 0 3 ] } Match: 0 3 File: 5 bad.c 40
+5 1 2 8 40 Finalize { } { [ 0 6 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+5 2 0 3 29 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+5 2 1 6 35 Send 0 0 0_0:1:2:3: { 2 } { [ 0 4 ] } Match: 0 4 File: 5 bad.c 40
+5 2 2 9 41 Finalize { } { [ 0 6 ] [ 1 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+5 3 0 4 31 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 5 bad.c 39
+5 3 1 7 37 Send 0 0 0_0:1:2:3: { 2 } { [ 0 5 ] } Match: 0 5 File: 5 bad.c 40
+5 3 2 10 42 Finalize { } { [ 0 6 ] [ 1 2 ] [ 2 2 ] } Match: -1 -1 File: 5 bad.c 43
+6 0 0 1 44 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 1 0 File: 5 bad.c 25
+6 0 1 11 46 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 3 0 File: 5 bad.c 25
+6 0 2 81 48 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 1 1 File: 5 bad.c 25
+6 0 3 82 -1 Recv 1 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+6 1 0 2 43 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+6 1 1 5 47 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 2 File: 5 bad.c 40
+6 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+6 2 0 3 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+6 2 1 6 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+6 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+6 3 0 4 45 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+6 3 1 7 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+6 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+6 DEADLOCK
+7 0 0 1 50 Recv -1 0 0_0:1:2:3: { 1 } { [ 1 0 ] } Match: 1 0 File: 5 bad.c 25
+7 0 1 11 52 Recv -1 0 0_0:1:2:3: { 2 } { [ 3 0 ] } Match: 3 0 File: 5 bad.c 25
+7 0 2 81 54 Recv -1 0 0_0:1:2:3: { 3 } { [ 2 0 ] } Match: 2 0 File: 5 bad.c 25
+7 0 3 95 56 Recv 1 0 0_0:1:2:3: { 4 } { [ 1 1 ] } Match: 1 1 File: 5 bad.c 29
+7 0 4 96 58 Recv 3 0 0_0:1:2:3: { 5 } { [ 3 1 ] } Match: 3 1 File: 5 bad.c 29
+7 0 5 97 60 Recv 2 0 0_0:1:2:3: { 6 } { [ 2 1 ] } Match: 2 1 File: 5 bad.c 29
+7 0 6 98 61 Finalize { } { [ 1 2 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+7 1 0 2 49 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+7 1 1 5 55 Send 0 0 0_0:1:2:3: { 2 } { [ 0 3 ] } Match: 0 3 File: 5 bad.c 40
+7 1 2 8 62 Finalize { } { [ 0 6 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+7 2 0 3 53 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 5 bad.c 39
+7 2 1 6 59 Send 0 0 0_0:1:2:3: { 2 } { [ 0 5 ] } Match: 0 5 File: 5 bad.c 40
+7 2 2 9 63 Finalize { } { [ 0 6 ] [ 1 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+7 3 0 4 51 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+7 3 1 7 57 Send 0 0 0_0:1:2:3: { 2 } { [ 0 4 ] } Match: 0 4 File: 5 bad.c 40
+7 3 2 10 64 Finalize { } { [ 0 6 ] [ 1 2 ] [ 2 2 ] } Match: -1 -1 File: 5 bad.c 43
+8 0 0 1 66 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 1 0 File: 5 bad.c 25
+8 0 1 11 68 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 3 0 File: 5 bad.c 25
+8 0 2 81 70 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 3 1 File: 5 bad.c 25
+8 0 3 111 72 Recv 1 0 0_0:1:2:3: { 4 } { } Match: 1 1 File: 5 bad.c 29
+8 0 4 112 -1 Recv 3 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+8 1 0 2 65 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+8 1 1 5 71 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 3 File: 5 bad.c 40
+8 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+8 2 0 3 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+8 2 1 6 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+8 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+8 3 0 4 67 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+8 3 1 7 69 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 2 File: 5 bad.c 40
+8 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+8 DEADLOCK
+9 0 0 1 74 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 2 0 File: 5 bad.c 25
+9 0 1 123 76 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 1 0 File: 5 bad.c 25
+9 0 2 124 78 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 1 1 File: 5 bad.c 25
+9 0 3 125 80 Recv 2 0 0_0:1:2:3: { 4 } { } Match: 2 1 File: 5 bad.c 29
+9 0 4 126 -1 Recv 1 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+9 1 0 2 75 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+9 1 1 5 77 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 2 File: 5 bad.c 40
+9 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+9 2 0 3 73 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+9 2 1 6 79 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 3 File: 5 bad.c 40
+9 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+9 3 0 4 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+9 3 1 7 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+9 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+9 DEADLOCK
+10 0 0 1 82 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 2 0 File: 5 bad.c 25
+10 0 1 123 84 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 1 0 File: 5 bad.c 25
+10 0 2 124 86 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 2 1 File: 5 bad.c 25
+10 0 3 139 -1 Recv 2 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+10 1 0 2 83 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+10 1 1 5 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+10 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+10 2 0 3 81 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+10 2 1 6 85 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 2 File: 5 bad.c 40
+10 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+10 3 0 4 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+10 3 1 7 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+10 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+10 DEADLOCK
+11 0 0 1 88 Recv -1 0 0_0:1:2:3: { 1 } { [ 2 0 ] } Match: 2 0 File: 5 bad.c 25
+11 0 1 123 90 Recv -1 0 0_0:1:2:3: { 2 } { [ 1 0 ] } Match: 1 0 File: 5 bad.c 25
+11 0 2 124 92 Recv -1 0 0_0:1:2:3: { 3 } { [ 3 0 ] } Match: 3 0 File: 5 bad.c 25
+11 0 3 152 94 Recv 2 0 0_0:1:2:3: { 4 } { [ 2 1 ] } Match: 2 1 File: 5 bad.c 29
+11 0 4 153 96 Recv 1 0 0_0:1:2:3: { 5 } { [ 1 1 ] } Match: 1 1 File: 5 bad.c 29
+11 0 5 154 98 Recv 3 0 0_0:1:2:3: { 6 } { [ 3 1 ] } Match: 3 1 File: 5 bad.c 29
+11 0 6 155 99 Finalize { } { [ 1 2 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+11 1 0 2 89 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+11 1 1 5 95 Send 0 0 0_0:1:2:3: { 2 } { [ 0 4 ] } Match: 0 4 File: 5 bad.c 40
+11 1 2 8 100 Finalize { } { [ 0 6 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+11 2 0 3 87 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+11 2 1 6 93 Send 0 0 0_0:1:2:3: { 2 } { [ 0 3 ] } Match: 0 3 File: 5 bad.c 40
+11 2 2 9 101 Finalize { } { [ 0 6 ] [ 1 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+11 3 0 4 91 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 5 bad.c 39
+11 3 1 7 97 Send 0 0 0_0:1:2:3: { 2 } { [ 0 5 ] } Match: 0 5 File: 5 bad.c 40
+11 3 2 10 102 Finalize { } { [ 0 6 ] [ 1 2 ] [ 2 2 ] } Match: -1 -1 File: 5 bad.c 43
+12 0 0 1 104 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 2 0 File: 5 bad.c 25
+12 0 1 123 106 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 2 1 File: 5 bad.c 25
+12 0 2 167 108 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 1 0 File: 5 bad.c 25
+12 0 3 168 -1 Recv 2 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+12 1 0 2 107 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 5 bad.c 39
+12 1 1 5 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+12 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+12 2 0 3 103 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+12 2 1 6 105 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 1 File: 5 bad.c 40
+12 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+12 3 0 4 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+12 3 1 7 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+12 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+12 DEADLOCK
+13 0 0 1 110 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 2 0 File: 5 bad.c 25
+13 0 1 123 112 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 2 1 File: 5 bad.c 25
+13 0 2 167 114 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 3 0 File: 5 bad.c 25
+13 0 3 181 -1 Recv 2 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+13 1 0 2 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+13 1 1 5 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+13 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+13 2 0 3 109 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+13 2 1 6 111 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 1 File: 5 bad.c 40
+13 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+13 3 0 4 113 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 5 bad.c 39
+13 3 1 7 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+13 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+13 DEADLOCK
+14 0 0 1 116 Recv -1 0 0_0:1:2:3: { 1 } { [ 2 0 ] } Match: 2 0 File: 5 bad.c 25
+14 0 1 123 118 Recv -1 0 0_0:1:2:3: { 2 } { [ 3 0 ] } Match: 3 0 File: 5 bad.c 25
+14 0 2 193 120 Recv -1 0 0_0:1:2:3: { 3 } { [ 1 0 ] } Match: 1 0 File: 5 bad.c 25
+14 0 3 194 122 Recv 2 0 0_0:1:2:3: { 4 } { [ 2 1 ] } Match: 2 1 File: 5 bad.c 29
+14 0 4 195 124 Recv 3 0 0_0:1:2:3: { 5 } { [ 3 1 ] } Match: 3 1 File: 5 bad.c 29
+14 0 5 196 126 Recv 1 0 0_0:1:2:3: { 6 } { [ 1 1 ] } Match: 1 1 File: 5 bad.c 29
+14 0 6 197 127 Finalize { } { [ 1 2 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+14 1 0 2 119 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 5 bad.c 39
+14 1 1 5 125 Send 0 0 0_0:1:2:3: { 2 } { [ 0 5 ] } Match: 0 5 File: 5 bad.c 40
+14 1 2 8 128 Finalize { } { [ 0 6 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+14 2 0 3 115 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+14 2 1 6 121 Send 0 0 0_0:1:2:3: { 2 } { [ 0 3 ] } Match: 0 3 File: 5 bad.c 40
+14 2 2 9 129 Finalize { } { [ 0 6 ] [ 1 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+14 3 0 4 117 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+14 3 1 7 123 Send 0 0 0_0:1:2:3: { 2 } { [ 0 4 ] } Match: 0 4 File: 5 bad.c 40
+14 3 2 10 130 Finalize { } { [ 0 6 ] [ 1 2 ] [ 2 2 ] } Match: -1 -1 File: 5 bad.c 43
+15 0 0 1 132 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 2 0 File: 5 bad.c 25
+15 0 1 123 134 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 3 0 File: 5 bad.c 25
+15 0 2 193 136 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 2 1 File: 5 bad.c 25
+15 0 3 210 -1 Recv 2 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+15 1 0 2 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+15 1 1 5 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+15 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+15 2 0 3 131 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+15 2 1 6 135 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 2 File: 5 bad.c 40
+15 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+15 3 0 4 133 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+15 3 1 7 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+15 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+15 DEADLOCK
+16 0 0 1 138 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 2 0 File: 5 bad.c 25
+16 0 1 123 140 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 3 0 File: 5 bad.c 25
+16 0 2 193 142 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 3 1 File: 5 bad.c 25
+16 0 3 223 144 Recv 2 0 0_0:1:2:3: { 4 } { } Match: 2 1 File: 5 bad.c 29
+16 0 4 224 -1 Recv 3 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+16 1 0 2 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+16 1 1 5 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+16 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+16 2 0 3 137 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+16 2 1 6 143 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 3 File: 5 bad.c 40
+16 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+16 3 0 4 139 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+16 3 1 7 141 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 2 File: 5 bad.c 40
+16 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+16 DEADLOCK
+17 0 0 1 146 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 3 0 File: 5 bad.c 25
+17 0 1 235 148 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 1 0 File: 5 bad.c 25
+17 0 2 236 150 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 1 1 File: 5 bad.c 25
+17 0 3 237 152 Recv 3 0 0_0:1:2:3: { 4 } { } Match: 3 1 File: 5 bad.c 29
+17 0 4 238 -1 Recv 1 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+17 1 0 2 147 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+17 1 1 5 149 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 2 File: 5 bad.c 40
+17 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+17 2 0 3 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+17 2 1 6 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+17 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+17 3 0 4 145 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+17 3 1 7 151 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 3 File: 5 bad.c 40
+17 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+17 DEADLOCK
+18 0 0 1 154 Recv -1 0 0_0:1:2:3: { 1 } { [ 3 0 ] } Match: 3 0 File: 5 bad.c 25
+18 0 1 235 156 Recv -1 0 0_0:1:2:3: { 2 } { [ 1 0 ] } Match: 1 0 File: 5 bad.c 25
+18 0 2 236 158 Recv -1 0 0_0:1:2:3: { 3 } { [ 2 0 ] } Match: 2 0 File: 5 bad.c 25
+18 0 3 251 160 Recv 3 0 0_0:1:2:3: { 4 } { [ 3 1 ] } Match: 3 1 File: 5 bad.c 29
+18 0 4 252 162 Recv 1 0 0_0:1:2:3: { 5 } { [ 1 1 ] } Match: 1 1 File: 5 bad.c 29
+18 0 5 253 164 Recv 2 0 0_0:1:2:3: { 6 } { [ 2 1 ] } Match: 2 1 File: 5 bad.c 29
+18 0 6 254 165 Finalize { } { [ 1 2 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+18 1 0 2 155 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+18 1 1 5 161 Send 0 0 0_0:1:2:3: { 2 } { [ 0 4 ] } Match: 0 4 File: 5 bad.c 40
+18 1 2 8 166 Finalize { } { [ 0 6 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+18 2 0 3 157 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 5 bad.c 39
+18 2 1 6 163 Send 0 0 0_0:1:2:3: { 2 } { [ 0 5 ] } Match: 0 5 File: 5 bad.c 40
+18 2 2 9 167 Finalize { } { [ 0 6 ] [ 1 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+18 3 0 4 153 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+18 3 1 7 159 Send 0 0 0_0:1:2:3: { 2 } { [ 0 3 ] } Match: 0 3 File: 5 bad.c 40
+18 3 2 10 168 Finalize { } { [ 0 6 ] [ 1 2 ] [ 2 2 ] } Match: -1 -1 File: 5 bad.c 43
+19 0 0 1 170 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 3 0 File: 5 bad.c 25
+19 0 1 235 172 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 1 0 File: 5 bad.c 25
+19 0 2 236 174 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 3 1 File: 5 bad.c 25
+19 0 3 267 -1 Recv 3 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+19 1 0 2 171 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+19 1 1 5 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+19 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+19 2 0 3 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+19 2 1 6 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+19 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+19 3 0 4 169 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+19 3 1 7 173 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 2 File: 5 bad.c 40
+19 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+19 DEADLOCK
+20 0 0 1 176 Recv -1 0 0_0:1:2:3: { 1 } { [ 3 0 ] } Match: 3 0 File: 5 bad.c 25
+20 0 1 235 178 Recv -1 0 0_0:1:2:3: { 2 } { [ 2 0 ] } Match: 2 0 File: 5 bad.c 25
+20 0 2 279 180 Recv -1 0 0_0:1:2:3: { 3 } { [ 1 0 ] } Match: 1 0 File: 5 bad.c 25
+20 0 3 280 182 Recv 3 0 0_0:1:2:3: { 4 } { [ 3 1 ] } Match: 3 1 File: 5 bad.c 29
+20 0 4 281 184 Recv 2 0 0_0:1:2:3: { 5 } { [ 2 1 ] } Match: 2 1 File: 5 bad.c 29
+20 0 5 282 186 Recv 1 0 0_0:1:2:3: { 6 } { [ 1 1 ] } Match: 1 1 File: 5 bad.c 29
+20 0 6 283 187 Finalize { } { [ 1 2 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+20 1 0 2 179 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 5 bad.c 39
+20 1 1 5 185 Send 0 0 0_0:1:2:3: { 2 } { [ 0 5 ] } Match: 0 5 File: 5 bad.c 40
+20 1 2 8 188 Finalize { } { [ 0 6 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+20 2 0 3 177 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+20 2 1 6 183 Send 0 0 0_0:1:2:3: { 2 } { [ 0 4 ] } Match: 0 4 File: 5 bad.c 40
+20 2 2 9 189 Finalize { } { [ 0 6 ] [ 1 2 ] [ 3 2 ] } Match: -1 -1 File: 5 bad.c 43
+20 3 0 4 175 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+20 3 1 7 181 Send 0 0 0_0:1:2:3: { 2 } { [ 0 3 ] } Match: 0 3 File: 5 bad.c 40
+20 3 2 10 190 Finalize { } { [ 0 6 ] [ 1 2 ] [ 2 2 ] } Match: -1 -1 File: 5 bad.c 43
+21 0 0 1 192 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 3 0 File: 5 bad.c 25
+21 0 1 235 194 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 2 0 File: 5 bad.c 25
+21 0 2 279 196 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 2 1 File: 5 bad.c 25
+21 0 3 296 198 Recv 3 0 0_0:1:2:3: { 4 } { } Match: 3 1 File: 5 bad.c 29
+21 0 4 297 -1 Recv 2 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+21 1 0 2 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+21 1 1 5 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+21 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+21 2 0 3 193 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+21 2 1 6 195 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 2 File: 5 bad.c 40
+21 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+21 3 0 4 191 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+21 3 1 7 197 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 3 File: 5 bad.c 40
+21 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+21 DEADLOCK
+22 0 0 1 200 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 3 0 File: 5 bad.c 25
+22 0 1 235 202 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 2 0 File: 5 bad.c 25
+22 0 2 279 204 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 3 1 File: 5 bad.c 25
+22 0 3 310 -1 Recv 3 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+22 1 0 2 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+22 1 1 5 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+22 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+22 2 0 3 201 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 1 File: 5 bad.c 39
+22 2 1 6 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+22 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+22 3 0 4 199 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+22 3 1 7 203 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 2 File: 5 bad.c 40
+22 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+22 DEADLOCK
+23 0 0 1 206 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 3 0 File: 5 bad.c 25
+23 0 1 235 208 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 3 1 File: 5 bad.c 25
+23 0 2 322 210 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 1 0 File: 5 bad.c 25
+23 0 3 323 -1 Recv 3 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+23 1 0 2 209 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 5 bad.c 39
+23 1 1 5 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+23 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+23 2 0 3 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+23 2 1 6 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+23 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+23 3 0 4 205 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+23 3 1 7 207 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 1 File: 5 bad.c 40
+23 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+23 DEADLOCK
+24 0 0 1 212 Recv -1 0 0_0:1:2:3: { 1 } { } Match: 3 0 File: 5 bad.c 25
+24 0 1 235 214 Recv -1 0 0_0:1:2:3: { 2 } { } Match: 3 1 File: 5 bad.c 25
+24 0 2 322 216 Recv -1 0 0_0:1:2:3: { 3 } { } Match: 2 0 File: 5 bad.c 25
+24 0 3 336 -1 Recv 3 0 0_0:1:2:3: { } { } Match: -1 -1 File: 5 bad.c 29
+24 1 0 2 -1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: -1 -1 File: 5 bad.c 39
+24 1 1 5 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+24 1 2 8 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+24 2 0 3 215 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 5 bad.c 39
+24 2 1 6 -1 Send 0 0 0_0:1:2:3: { 2 } { } Match: -1 -1 File: 5 bad.c 40
+24 2 2 9 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+24 3 0 4 211 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 5 bad.c 39
+24 3 1 7 213 Send 0 0 0_0:1:2:3: { 2 } { } Match: 0 1 File: 5 bad.c 40
+24 3 2 10 -1 Finalize { } { } Match: -1 -1 File: 5 bad.c 43
+24 DEADLOCK

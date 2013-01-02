@@ -1,0 +1,97 @@
+4
+1 0 0 1 2 Recv -1 0 0_0:1:2:3: { 1 } { [ 1 0 ] } Match: 1 0 File: 6 good.c 25
+1 0 1 11 4 Recv 1 0 0_0:1:2:3: { 2 } { [ 1 1 ] } Match: 1 1 File: 6 good.c 27
+1 0 2 12 6 Recv -1 0 0_0:1:2:3: { 3 } { [ 2 0 ] } Match: 2 0 File: 6 good.c 25
+1 0 3 13 8 Recv 2 0 0_0:1:2:3: { 4 } { [ 2 1 ] } Match: 2 1 File: 6 good.c 27
+1 0 4 14 10 Recv -1 0 0_0:1:2:3: { 5 } { [ 3 0 ] } Match: 3 0 File: 6 good.c 25
+1 0 5 15 12 Recv 3 0 0_0:1:2:3: { 6 } { [ 3 1 ] } Match: 3 1 File: 6 good.c 27
+1 0 6 16 13 Finalize { } { [ 1 2 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+1 1 0 2 1 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 6 good.c 38
+1 1 1 5 3 Send 0 0 0_0:1:2:3: { 2 } { [ 0 1 ] } Match: 0 1 File: 6 good.c 39
+1 1 2 8 14 Finalize { } { [ 0 6 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+1 2 0 3 5 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 6 good.c 38
+1 2 1 6 7 Send 0 0 0_0:1:2:3: { 2 } { [ 0 3 ] } Match: 0 3 File: 6 good.c 39
+1 2 2 9 15 Finalize { } { [ 0 6 ] [ 1 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+1 3 0 4 9 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 4 File: 6 good.c 38
+1 3 1 7 11 Send 0 0 0_0:1:2:3: { 2 } { [ 0 5 ] } Match: 0 5 File: 6 good.c 39
+1 3 2 10 16 Finalize { } { [ 0 6 ] [ 1 2 ] [ 2 2 ] } Match: -1 -1 File: 6 good.c 42
+2 0 0 1 18 Recv -1 0 0_0:1:2:3: { 1 } { [ 1 0 ] } Match: 1 0 File: 6 good.c 25
+2 0 1 11 20 Recv 1 0 0_0:1:2:3: { 2 } { [ 1 1 ] } Match: 1 1 File: 6 good.c 27
+2 0 2 12 22 Recv -1 0 0_0:1:2:3: { 3 } { [ 3 0 ] } Match: 3 0 File: 6 good.c 25
+2 0 3 29 24 Recv 3 0 0_0:1:2:3: { 4 } { [ 3 1 ] } Match: 3 1 File: 6 good.c 27
+2 0 4 30 26 Recv -1 0 0_0:1:2:3: { 5 } { [ 2 0 ] } Match: 2 0 File: 6 good.c 25
+2 0 5 31 28 Recv 2 0 0_0:1:2:3: { 6 } { [ 2 1 ] } Match: 2 1 File: 6 good.c 27
+2 0 6 32 29 Finalize { } { [ 1 2 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+2 1 0 2 17 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 6 good.c 38
+2 1 1 5 19 Send 0 0 0_0:1:2:3: { 2 } { [ 0 1 ] } Match: 0 1 File: 6 good.c 39
+2 1 2 8 30 Finalize { } { [ 0 6 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+2 2 0 3 25 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 4 File: 6 good.c 38
+2 2 1 6 27 Send 0 0 0_0:1:2:3: { 2 } { [ 0 5 ] } Match: 0 5 File: 6 good.c 39
+2 2 2 9 31 Finalize { } { [ 0 6 ] [ 1 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+2 3 0 4 21 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 6 good.c 38
+2 3 1 7 23 Send 0 0 0_0:1:2:3: { 2 } { [ 0 3 ] } Match: 0 3 File: 6 good.c 39
+2 3 2 10 32 Finalize { } { [ 0 6 ] [ 1 2 ] [ 2 2 ] } Match: -1 -1 File: 6 good.c 42
+3 0 0 1 34 Recv -1 0 0_0:1:2:3: { 1 } { [ 2 0 ] } Match: 2 0 File: 6 good.c 25
+3 0 1 43 36 Recv 2 0 0_0:1:2:3: { 2 } { [ 2 1 ] } Match: 2 1 File: 6 good.c 27
+3 0 2 44 38 Recv -1 0 0_0:1:2:3: { 3 } { [ 1 0 ] } Match: 1 0 File: 6 good.c 25
+3 0 3 45 40 Recv 1 0 0_0:1:2:3: { 4 } { [ 1 1 ] } Match: 1 1 File: 6 good.c 27
+3 0 4 46 42 Recv -1 0 0_0:1:2:3: { 5 } { [ 3 0 ] } Match: 3 0 File: 6 good.c 25
+3 0 5 47 44 Recv 3 0 0_0:1:2:3: { 6 } { [ 3 1 ] } Match: 3 1 File: 6 good.c 27
+3 0 6 48 45 Finalize { } { [ 1 2 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+3 1 0 2 37 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 6 good.c 38
+3 1 1 5 39 Send 0 0 0_0:1:2:3: { 2 } { [ 0 3 ] } Match: 0 3 File: 6 good.c 39
+3 1 2 8 46 Finalize { } { [ 0 6 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+3 2 0 3 33 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 6 good.c 38
+3 2 1 6 35 Send 0 0 0_0:1:2:3: { 2 } { [ 0 1 ] } Match: 0 1 File: 6 good.c 39
+3 2 2 9 47 Finalize { } { [ 0 6 ] [ 1 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+3 3 0 4 41 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 4 File: 6 good.c 38
+3 3 1 7 43 Send 0 0 0_0:1:2:3: { 2 } { [ 0 5 ] } Match: 0 5 File: 6 good.c 39
+3 3 2 10 48 Finalize { } { [ 0 6 ] [ 1 2 ] [ 2 2 ] } Match: -1 -1 File: 6 good.c 42
+4 0 0 1 50 Recv -1 0 0_0:1:2:3: { 1 } { [ 2 0 ] } Match: 2 0 File: 6 good.c 25
+4 0 1 43 52 Recv 2 0 0_0:1:2:3: { 2 } { [ 2 1 ] } Match: 2 1 File: 6 good.c 27
+4 0 2 44 54 Recv -1 0 0_0:1:2:3: { 3 } { [ 3 0 ] } Match: 3 0 File: 6 good.c 25
+4 0 3 61 56 Recv 3 0 0_0:1:2:3: { 4 } { [ 3 1 ] } Match: 3 1 File: 6 good.c 27
+4 0 4 62 58 Recv -1 0 0_0:1:2:3: { 5 } { [ 1 0 ] } Match: 1 0 File: 6 good.c 25
+4 0 5 63 60 Recv 1 0 0_0:1:2:3: { 6 } { [ 1 1 ] } Match: 1 1 File: 6 good.c 27
+4 0 6 64 61 Finalize { } { [ 1 2 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+4 1 0 2 57 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 4 File: 6 good.c 38
+4 1 1 5 59 Send 0 0 0_0:1:2:3: { 2 } { [ 0 5 ] } Match: 0 5 File: 6 good.c 39
+4 1 2 8 62 Finalize { } { [ 0 6 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+4 2 0 3 49 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 6 good.c 38
+4 2 1 6 51 Send 0 0 0_0:1:2:3: { 2 } { [ 0 1 ] } Match: 0 1 File: 6 good.c 39
+4 2 2 9 63 Finalize { } { [ 0 6 ] [ 1 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+4 3 0 4 53 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 6 good.c 38
+4 3 1 7 55 Send 0 0 0_0:1:2:3: { 2 } { [ 0 3 ] } Match: 0 3 File: 6 good.c 39
+4 3 2 10 64 Finalize { } { [ 0 6 ] [ 1 2 ] [ 2 2 ] } Match: -1 -1 File: 6 good.c 42
+5 0 0 1 66 Recv -1 0 0_0:1:2:3: { 1 } { [ 3 0 ] } Match: 3 0 File: 6 good.c 25
+5 0 1 75 68 Recv 3 0 0_0:1:2:3: { 2 } { [ 3 1 ] } Match: 3 1 File: 6 good.c 27
+5 0 2 76 70 Recv -1 0 0_0:1:2:3: { 3 } { [ 1 0 ] } Match: 1 0 File: 6 good.c 25
+5 0 3 77 72 Recv 1 0 0_0:1:2:3: { 4 } { [ 1 1 ] } Match: 1 1 File: 6 good.c 27
+5 0 4 78 74 Recv -1 0 0_0:1:2:3: { 5 } { [ 2 0 ] } Match: 2 0 File: 6 good.c 25
+5 0 5 79 76 Recv 2 0 0_0:1:2:3: { 6 } { [ 2 1 ] } Match: 2 1 File: 6 good.c 27
+5 0 6 80 77 Finalize { } { [ 1 2 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+5 1 0 2 69 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 6 good.c 38
+5 1 1 5 71 Send 0 0 0_0:1:2:3: { 2 } { [ 0 3 ] } Match: 0 3 File: 6 good.c 39
+5 1 2 8 78 Finalize { } { [ 0 6 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+5 2 0 3 73 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 4 File: 6 good.c 38
+5 2 1 6 75 Send 0 0 0_0:1:2:3: { 2 } { [ 0 5 ] } Match: 0 5 File: 6 good.c 39
+5 2 2 9 79 Finalize { } { [ 0 6 ] [ 1 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+5 3 0 4 65 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 6 good.c 38
+5 3 1 7 67 Send 0 0 0_0:1:2:3: { 2 } { [ 0 1 ] } Match: 0 1 File: 6 good.c 39
+5 3 2 10 80 Finalize { } { [ 0 6 ] [ 1 2 ] [ 2 2 ] } Match: -1 -1 File: 6 good.c 42
+6 0 0 1 82 Recv -1 0 0_0:1:2:3: { 1 } { [ 3 0 ] } Match: 3 0 File: 6 good.c 25
+6 0 1 75 84 Recv 3 0 0_0:1:2:3: { 2 } { [ 3 1 ] } Match: 3 1 File: 6 good.c 27
+6 0 2 76 86 Recv -1 0 0_0:1:2:3: { 3 } { [ 2 0 ] } Match: 2 0 File: 6 good.c 25
+6 0 3 93 88 Recv 2 0 0_0:1:2:3: { 4 } { [ 2 1 ] } Match: 2 1 File: 6 good.c 27
+6 0 4 94 90 Recv -1 0 0_0:1:2:3: { 5 } { [ 1 0 ] } Match: 1 0 File: 6 good.c 25
+6 0 5 95 92 Recv 1 0 0_0:1:2:3: { 6 } { [ 1 1 ] } Match: 1 1 File: 6 good.c 27
+6 0 6 96 93 Finalize { } { [ 1 2 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+6 1 0 2 89 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 4 File: 6 good.c 38
+6 1 1 5 91 Send 0 0 0_0:1:2:3: { 2 } { [ 0 5 ] } Match: 0 5 File: 6 good.c 39
+6 1 2 8 94 Finalize { } { [ 0 6 ] [ 2 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+6 2 0 3 85 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 2 File: 6 good.c 38
+6 2 1 6 87 Send 0 0 0_0:1:2:3: { 2 } { [ 0 3 ] } Match: 0 3 File: 6 good.c 39
+6 2 2 9 95 Finalize { } { [ 0 6 ] [ 1 2 ] [ 3 2 ] } Match: -1 -1 File: 6 good.c 42
+6 3 0 4 81 Send 0 0 0_0:1:2:3: { 1 2 } { } Match: 0 0 File: 6 good.c 38
+6 3 1 7 83 Send 0 0 0_0:1:2:3: { 2 } { [ 0 1 ] } Match: 0 1 File: 6 good.c 39
+6 3 2 10 96 Finalize { } { [ 0 6 ] [ 1 2 ] [ 2 2 ] } Match: -1 -1 File: 6 good.c 42
